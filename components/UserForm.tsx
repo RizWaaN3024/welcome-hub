@@ -22,7 +22,6 @@ const formSchema = z.object({
     country: z.enum(["India", "USA", "UK", "Australia"], {message: "Enter a valid country"})
 
 })
-
 const UserForm = () => {
     const form = useForm<z.infer<typeof formSchema>>({
         resolver: zodResolver(formSchema),
