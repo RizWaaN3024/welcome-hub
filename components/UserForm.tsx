@@ -32,7 +32,6 @@ const UserForm = () => {
             country: "India",
         }
     })
-
     const onSubmit = () => {
 
     }
