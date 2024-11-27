@@ -33,7 +33,6 @@ const UserForm = () => {
         }
     })
     const onSubmit = () => {
-
     }
     return (
         <section className="py-[100px]">
