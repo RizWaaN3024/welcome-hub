@@ -1,5 +1,4 @@
 import React from 'react'
-
 const Navbar = () => {
     return (
         <div className="py-10 bg-slate-300">
